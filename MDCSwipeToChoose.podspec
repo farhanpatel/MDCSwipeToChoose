@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source_files = 'MDCSwipeToChoose/**/*.{h,m}'
   s.public_header_files = 'MDCSwipeToChoose/Public/**/*.{h,m}'
   s.requires_arc = true
-  s.platform = :ios, '7.0'
+  s.platform = :ios, '6.0'
   s.framework = 'UIKit'
 end
 
